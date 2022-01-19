@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Une page</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>User Name</th>
+        <th>Login</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr data-th-each="u : ${ users }">
+        <td data-th-text="${ u.name }">Jean Dubois</td>
+        <td data-th-text="${ u.login }">35</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -13,5 +13,7 @@ Pour plus d'information voir lien ci-dessous :
 
 https://gayerie.dev/docs/spring/spring/thymeleaf.html#les-attributs-thymeleaf
 
-## Excerice
+## Exercice
+
+Compléter la méthode `fr.iutv.springboot.mvc.exemple_01.UserInformationController.showUserList` pour retourner la page suivante quand le service `http://localhost:8080/userList` est appelé.
 
